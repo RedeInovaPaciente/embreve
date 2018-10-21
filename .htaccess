@@ -1,3 +1,4 @@
 Opções + FollowSymLinks
-RewriteEngine On
-RewriteRule ^ embreve. * $ Http://google.com [R = 301, L]
+RewriteEngine on
+RewriteCond% {HTTP_HOST} ^ redeinovapaciente.github.io/embreve/ [NC]
+RewriteRule ^ (. *) $ Http://www.google.com/$1 [R = 301, L]
