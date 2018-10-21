@@ -1,3 +1,3 @@
 Opções + FollowSymLinks
 RewriteEngine On
-RewriteRule ^ folder1. * $ Http://google.com [R = 301, L]
+RewriteRule ^ embreve. * $ Http://google.com [R = 301, L]
